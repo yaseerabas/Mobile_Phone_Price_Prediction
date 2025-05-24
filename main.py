@@ -11,6 +11,7 @@ with open('Scaler_X.pkl', 'rb') as file:
 with open('Scaler_y.pkl', 'rb') as file:
     Scale_y = pickle.load(file)
 
+st.title("Predict Mobile phone Price")
 
 resolution = st.number_input("Enter Resolution")
 
